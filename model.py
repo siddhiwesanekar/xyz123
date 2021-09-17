@@ -9,7 +9,7 @@ import random
 import json
 
 bot_name = "SmartBot"
-with open('./data', 'r') as f:
+with open('teamcenter_data.json', 'r') as f:
     intents = json.load(f)
 
 
