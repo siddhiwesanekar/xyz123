@@ -103,4 +103,4 @@ model.save('model.tflearn')
 
 
 import pickle
-pickle.dump( {'words':words, 'classes':classes,'parent_classes':parent_classes , 'train_x':train_x, 'train_y':train_y}, open( "training_data_old", "wb" ) )
+pickle.dump( {'words':words, 'classes':classes,'parent_classes':parent_classes , 'train_x':train_x, 'train_y':train_y}, open( "data/training_data_old", "wb" ) )
