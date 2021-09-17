@@ -16,7 +16,7 @@ train_y = data['train_y']
 parent_classes = data['parent_classes']
 
 import json
-with open('teamcenter_data.json') as json_data:
+with open('data/teamcenter_data.json') as json_data:
     intents = json.load(json_data)
 
 
