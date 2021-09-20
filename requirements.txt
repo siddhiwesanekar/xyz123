@@ -23,6 +23,8 @@ six
 SQLAlchemy
 tensorflow
 tensorflow-estimator
+tensorflow-gpu
+tensorflow-probability
 tensorflow-io-gcs-filesystem
 tf-nightly
 termcolor
