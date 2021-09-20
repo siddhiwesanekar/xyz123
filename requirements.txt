@@ -1,4 +1,6 @@
 cx-Freeze==6.7
+dotenv
+cryptography
 Flask
 flatbuffers==1.12
 future==0.18.2
