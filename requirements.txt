@@ -24,6 +24,8 @@ SQLAlchemy
 tensorflow
 tensorflow-estimator
 tensorflow-io-gcs-filesystem
+tf-nightly
+tensorflow-probability
 termcolor
 textblob
 tf-estimator-nightly
