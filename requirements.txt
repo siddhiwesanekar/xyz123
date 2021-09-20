@@ -1,5 +1,5 @@
 cx-Freeze==6.7
-Flask==2.0.1
+Flask
 flatbuffers==1.12
 future==0.18.2
 idna==3.2
@@ -25,7 +25,6 @@ tensorflow
 tensorflow-estimator
 tensorflow-io-gcs-filesystem
 tf-nightly
-tensorflow-probability
 termcolor
 textblob
 tf-estimator-nightly
