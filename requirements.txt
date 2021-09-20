@@ -1,6 +1,5 @@
 cx-Freeze==6.7
 python-dotenv
-dotenv
 cryptography
 Flask
 flatbuffers==1.12
