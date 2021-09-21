@@ -22,7 +22,7 @@ def home():
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get('msg')
-    msg5 = test.response1(userText)
+    msg5 = response1(userText)
     if userText.isnumeric():
         if int(userText) in app.temp_dict.keys():
             userText = app.temp_dict[int(userText)]
@@ -67,7 +67,7 @@ def get_bot_response():
 
 
 
-    return str(test.response1(userText))
+    return str(response1(userText))
 
 if __name__ == "__main__":
     app.run(host='127.0.0.1', port=80)
