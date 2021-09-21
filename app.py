@@ -302,23 +302,5 @@ def get_bot_response():
 
     return str(response1(userText))
 
-
-conversation = []
-
-
-def func():
-    t = threading.Thread(target=get_bot_response)
-    t.start()
-
-
-attempt = 0
-s = socket.socket()
-
-
-
-
-
-
-
 if __name__ == "__main__":
     app.run(host='127.0.0.1', port=80)
