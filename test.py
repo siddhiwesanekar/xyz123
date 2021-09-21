@@ -8,7 +8,7 @@ import tflearn
 import tensorflow as tf
 import random
 import pickle
-data = pickle.load( open( "data/training_data_old", "rb" ) )
+data = pickle.load( open( "training_data_old", "rb" ) )
 words = data['words']
 classes = data['classes']
 train_x = data['train_x']
