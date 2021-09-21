@@ -1,12 +1,11 @@
+
+
+
+
 import socket
 import threading
 
-
 from flask import Flask, render_template, request
-from test import response1
-from subprocess import call 
-call(["python", "model.py"])
-call(["python", "test.py"])
 
 app = Flask(__name__, template_folder='./templates')
 
