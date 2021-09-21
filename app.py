@@ -10,6 +10,7 @@ call(["python", "test.py"])
 
 app = Flask(__name__, template_folder='./templates')
 
+
 app.static_folder = './static'
 app.temp_dict = {}
 
