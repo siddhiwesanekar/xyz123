@@ -1,5 +1,5 @@
 cx-Freeze==6.7
-cuda
+cuda == 9.0.0
 cuDNN
 gunicorn
 python-dotenv
