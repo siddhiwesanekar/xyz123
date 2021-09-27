@@ -29,10 +29,9 @@ tensorflow-estimator
 tensorflow-gpu
 tensorflow-probability
 tensorflow-io-gcs-filesystem
-tf-nightly
 termcolor
 textblob
-tf-estimator-nightly
+
 tflearn
 tqdm
 typing-extensions
