@@ -31,7 +31,7 @@ tensorflow-probability
 tensorflow-io-gcs-filesystem
 termcolor
 textblob
-
+tensorflow-gpu
 tflearn
 tqdm
 typing-extensions
