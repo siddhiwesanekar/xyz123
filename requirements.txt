@@ -27,9 +27,6 @@ six
 SQLAlchemy
 tensorflow == 2.6.0
 tensorflow-estimator
-tensorflow-gpu
-cuda == 11.2
-cuDNN == 8.1
 tensorflow-probability
 tensorflow-io-gcs-filesystem
 termcolor
