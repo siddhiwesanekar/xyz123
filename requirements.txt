@@ -25,11 +25,11 @@ requests-oauthlib
 rsa
 six
 SQLAlchemy
-tensorflow
+tensorflow == 2.6.0
 tensorflow-estimator
 tensorflow-gpu
-cuda 
-cuDNN
+cuda == 11.2
+cuDNN == 8.1
 tensorflow-probability
 tensorflow-io-gcs-filesystem
 termcolor
