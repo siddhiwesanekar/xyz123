@@ -1,4 +1,6 @@
 cx-Freeze==6.7
+cuda
+cuDNN
 gunicorn
 python-dotenv
 cryptography
