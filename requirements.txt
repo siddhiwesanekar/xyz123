@@ -1,6 +1,5 @@
 cx-Freeze==6.7
-cuda == 9.0.0
-cuDNN
+
 gunicorn
 python-dotenv
 cryptography
@@ -29,6 +28,8 @@ SQLAlchemy
 tensorflow
 tensorflow-estimator
 tensorflow-gpu
+cuda 
+cuDNN
 tensorflow-probability
 tensorflow-io-gcs-filesystem
 termcolor
